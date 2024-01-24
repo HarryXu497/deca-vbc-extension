@@ -1,4 +1,4 @@
-# deca vbc percentage extension
+# DECA VBC percentage extension
 
 Displays the percentage of each team in the DECA VBC standings relative to the top team.
 
