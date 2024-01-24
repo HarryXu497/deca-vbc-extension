@@ -1,17 +1,17 @@
 const bars = document.querySelectorAll("td[align=left]");
 
 const firstBar = bars[0];
-const referenceWidth = firstBar.offsetWidth;
-
-console.log(referenceWidth)
+const referenceWidth = firstBar.children[0].style.width;
+const referenceWidthNum = +referenceWidth.substring(0, referenceWidth.length - 2);
 
 bars.forEach(bar => {
 	const barElement = bar.children[0];
 	bar.style.position = "relative";
+	
+	const width = barElement.style.width;
+	const widthNum = +width.substring(0, width.length - 2);
 
-	console.dir(barElement)
-
-	const barPercent = barElement.offsetWidth / referenceWidth * 100;
+	const barPercent = widthNum / referenceWidthNum * 100;
 	const barPercentStr = `${Math.round(barPercent)}%`;
 
 	const percentElement = document.createElement("span");
