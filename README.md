@@ -12,7 +12,7 @@ Download the files and load them at ```chrome://extensions``` using the above tu
 
 ### Firefox
 
-The extension is publically listened [here](https://addons.mozilla.org/en-CA/firefox/addon/deca-vbc-standings-percentage/)
+The extension is publically listened [here](https://addons.mozilla.org/en-CA/firefox/addon/deca-vbc-standings-percentage/).
 
 ## Demo
 
